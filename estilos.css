@@ -30,7 +30,7 @@ p {
 }
 
 header {
-    height: 15vh;
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     background: rgb(255, 40, 28);
@@ -62,5 +62,9 @@ nav ul li a{
     text-decoration: none;
     font-family: Orbitron;
     color: rgb(236, 223, 222);
+}
+
+nav ul li a{
+    color: rgb(2, 230, 90);
 }
 
