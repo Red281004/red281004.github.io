@@ -13,16 +13,12 @@ body {
     padding: 0;
 }
 
-h1, h2 {
+h1 {
     font-family: Press;
 }
 
 h1 {
     font-size: 38px;
-}
-
-h2 {
-    font-size: 25px;
 }
 
 p {
@@ -68,5 +64,19 @@ nav ul li a{
 
 nav ul li a:hover{
     color: rgb(2, 230, 90);
+}
+
+.regresar {
+    margin-right: 100px;
+    text-decoration: none;
+    color:rgb(236, 223, 222);
+    font-family: Orbitron;
+    padding: 10px;
+    border: 1px solid rgb(236, 223, 222);
+}
+
+.regresar:hover {
+    color:rgb(2, 230, 90);
+    background: rgb(238, 71, 63);
 }
 
