@@ -11,9 +11,10 @@
 body {
     margin: 0;
     padding: 0;
+    background: snow;
 }
 
-h1 {
+h1, h2 {
     font-family: Press;
 }
 
@@ -26,7 +27,7 @@ p {
 }
 
 header {
-    height: 20vh;
+    height: 25vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,12 +36,12 @@ header {
 }
 
 header > h1 {
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 
 header nav {
-    width: 50%;
+    width: 40%;
 }
 
 section {
@@ -66,6 +67,13 @@ nav ul li a:hover{
     color: rgb(2, 230, 90);
 }
 
+footer {
+    height: 150px;
+    text-align: center;
+    font-family: Orbitron;
+    background: rgb(0, 150, 60);
+}
+
 .regresar {
     margin-right: 100px;
     text-decoration: none;
@@ -79,4 +87,3 @@ nav ul li a:hover{
     color:rgb(2, 230, 90);
     background: rgb(238, 71, 63);
 }
-
