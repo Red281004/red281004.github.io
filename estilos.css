@@ -33,12 +33,14 @@ header {
     height: 20vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: rgb(255, 40, 28);
     color: rgb(236, 223, 222);
 }
 
 header > h1 {
     width: 50%;
+    text-align: center;
 }
 
 header nav {
