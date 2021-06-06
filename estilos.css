@@ -8,6 +8,11 @@
     src: url("fuentes/Press.ttf");
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     font-family: Press;
 }
@@ -22,5 +27,40 @@ h2 {
 
 p {
     font-family: Orbitron;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 40, 28);
+    color: rgb(236, 223, 222);
+}
+
+header > h1 {
+    width: 50%;
+}
+
+header nav {
+    width: 50%;
+}
+
+section {
+    margin-top: 20vh;
+    display: flex;
+    
+    height: 80vh;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Orbitron;
+    color: rgb(236, 223, 222);
 }
 
