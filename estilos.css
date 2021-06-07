@@ -115,7 +115,7 @@ footer {
     max-height: 250px;
 }
 
-.tarjeta h2{
+h2{
     text-align: center;
 }
 
@@ -124,7 +124,12 @@ footer {
     border: 1px solid rgb(238, 71, 63);
     color:rgb(255, 40, 28);
     text-decoration: none;
-    margin-left: 50px;
+    margin: 20px;
+    font-family: Orbitron;
+}
+
+.boton:hover {
+    background: rgb(235, 228, 228);
 }
 
 main {
@@ -143,4 +148,9 @@ main {
     width: 40%;
 }
 
-
+.video {
+    width: 80%;
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
