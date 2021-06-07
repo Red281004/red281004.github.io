@@ -75,7 +75,7 @@ footer {
     height: 150px;
     text-align: center;
     font-family: Orbitron;
-    background: rgb(85, 220, 150);
+    background: rgb(22, 24, 23);
     color: rgb(236, 223, 222);
 }
 
@@ -105,12 +105,13 @@ footer {
     box-shadow: 2px 2px 5px rgb(117, 99, 98);
     background: ghostwhite;
     border-radius: 5%;
-    padding: 15px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 .tarjeta img {
     width: 100%;
+    border-radius: 5%;
     max-height: 250px;
 }
 
@@ -126,5 +127,11 @@ footer {
     margin-left: 50px;
 }
 
+.contenido-secundario {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+}
 
 
