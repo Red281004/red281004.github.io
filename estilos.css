@@ -93,15 +93,8 @@ footer {
     background: rgb(238, 71, 63);
 }
 
-.contenido-principal {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
 .tarjeta {
-    width: 30%;
+    width: 32%;
     box-shadow: 2px 2px 5px rgb(117, 99, 98);
     background: ghostwhite;
     border-radius: 5%;
