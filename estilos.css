@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: snow;
+    background: rgb(240, 234, 234);
 }
 
 h1, h2 {
@@ -20,6 +20,10 @@ h1, h2 {
 
 h1 {
     font-size: 38px;
+}
+
+h2 {
+    font-size: 22px;
 }
 
 p {
@@ -71,7 +75,8 @@ footer {
     height: 150px;
     text-align: center;
     font-family: Orbitron;
-    background: rgb(0, 150, 60);
+    background: rgb(85, 220, 150);
+    color: rgb(236, 223, 222);
 }
 
 .regresar {
@@ -87,3 +92,39 @@ footer {
     color:rgb(2, 230, 90);
     background: rgb(238, 71, 63);
 }
+
+.contenido-principal {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tarjeta {
+    width: 30%;
+    box-shadow: 2px 2px 5px rgb(117, 99, 98);
+    background: ghostwhite;
+    border-radius: 5%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.tarjeta img {
+    width: 100%;
+    max-height: 250px;
+}
+
+.tarjeta h2{
+    text-align: center;
+}
+
+.boton {
+    padding: 10px;
+    border: 1px solid rgb(238, 71, 63);
+    color:rgb(255, 40, 28);
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+
