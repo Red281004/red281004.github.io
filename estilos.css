@@ -19,7 +19,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 32px;
 }
 
 h2 {
@@ -40,12 +40,12 @@ header {
 }
 
 header > h1 {
-    width: 45%;
+    width: 40%;
     text-align: center;
 }
 
 header nav {
-    width: 55%;
+    width: 60%;
 }
 
 section {
